@@ -1,0 +1,37 @@
+#hyperlink {
+    -fx-text-fill: black;
+}
+.hyperlink:hover {
+
+    -fx-font-size: 18px ;
+    -fx-font-weight: bold;
+}
+AnchorPane {
+    -fx-background-color: lightblue;
+}
+#degreesLabel{
+    -fx-font-weight: bold;
+}
+#tableView{
+
+    -fx-border-color: lightblue;
+
+}
+#weatherDateLabel{
+    -fx-font-weight: bold;
+    -fx-font-size: 25px ;
+}
+
+#hottestLabel:hover{
+    -fx-text-fill: red;
+}
+#rainyLabel:hover{
+    -fx-text-fill: #0059FFFF;
+
+}
+#weatherPicture{
+    -fx-transition: transform 0.3s ease;
+}
+#weatherPicture:hover{
+    -fx-transform: scale(1.2);
+}
